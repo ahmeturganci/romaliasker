@@ -25,7 +25,6 @@ namespace romaliasker
             lblIlkDeger.Text = "Girilen Asker Sayısı " + askerSayisi.ToString() + "\nGirilen Adım Sayısı" + adimSayisi.ToString();
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            //hesaplama yaparken tekrar değer girmemesi için
             txtAdimSayisi.Enabled = true;
             txtAskerSayisi.Enabled = true;
             int[] kisiler = new int[askerSayisi];
@@ -77,9 +76,6 @@ namespace romaliasker
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
 
-        private void frmAsker_Load(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

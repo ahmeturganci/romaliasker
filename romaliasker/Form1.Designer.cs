@@ -169,7 +169,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frmAsker";
             this.Text = "Romalı Asker Problemi";
-            this.Load += new System.EventHandler(this.frmAsker_Load);
+            
             this.ResumeLayout(false);
             this.PerformLayout();
 
